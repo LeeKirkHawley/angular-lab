@@ -1,3 +1,4 @@
+import { PriceQuoterComponent } from './output/price.quoter.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +10,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { HomeComponent } from './home/home.component';
 import { InputComponent } from './input/input.component';
 import { OrderProcessorComponent } from './order/order.component';
+import { OutputComponent } from './output/output.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { OrderProcessorComponent } from './order/order.component';
     TableExpandableRowsExample,
     HomeComponent,
     InputComponent,
-    OrderProcessorComponent
+    OrderProcessorComponent,
+    OutputComponent,
+    PriceQuoterComponent
   ],
   imports: [
     BrowserModule,
