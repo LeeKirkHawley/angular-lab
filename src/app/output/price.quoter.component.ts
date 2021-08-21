@@ -1,3 +1,5 @@
+// from Angular Development With Typescript chapter 8
+
 import {Component, Output, EventEmitter}  from '@angular/core';
 import { interval } from 'rxjs';
 import { IPriceQuote } from './iprice.quote';
